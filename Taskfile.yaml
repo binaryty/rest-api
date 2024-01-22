@@ -1,0 +1,10 @@
+  version: '3'
+
+  tasks:
+    build:
+      cmds:
+        - go build -v -i ./...
+
+    run:
+      cmds:
+        - go run ./...
